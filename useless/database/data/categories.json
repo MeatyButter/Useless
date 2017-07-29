@@ -1,0 +1,57 @@
+[
+	{
+		"parent_id": 0,
+		"name": "Art",
+		"slug": "art"
+	},
+	{
+		"parent_id": 0,
+		"name": "Conspiracy",
+		"slug": "conspiracy"
+	},
+	{
+		"parent_id": 0,
+		"name": "Food",
+		"slug": "food"
+	},
+	{
+		"parent_id": 0,
+		"name": "Funny",
+		"slug": "funny"
+	},
+	{
+		"parent_id": 0,
+		"name": "History",
+		"slug": "history"
+	},
+	{
+		"parent_id": 0,
+		"name": "Nature",
+		"slug": "nature"
+	},
+	{
+		"parent_id": 0,
+		"name": "News",
+		"slug": "news"
+	},
+	{
+		"parent_id": 0,
+		"name": "Random",
+		"slug": "random"
+	},
+	{
+		"parent_id": 0,
+		"name": "Sports",
+		"slug": "sports"
+	},
+	{
+		"parent_id": 0,
+		"name": "Technology",
+		"slug": "technology"
+	},
+	{
+		"parent_id": 0,
+		"name": "Travel",
+		"slug": "travel"
+	}
+]

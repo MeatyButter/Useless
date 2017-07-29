@@ -1,0 +1,354 @@
+html, body {
+    background-color: #f9f9f9;
+    color: #111111;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    height: 100vh;
+    margin: 0;
+}
+
+body {
+    padding-top: 69px;
+    padding-bottom: 50px;
+    overflow-x: hidden;
+}
+
+strong {
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+a {
+    cursor: pointer;
+}
+
+.post-delete {
+    position: absolute;
+    top: 10px; left: 10px;
+    z-index: 1000;
+}
+
+.grid-item { width: calc(33% - 5px); }
+
+.img-round {
+    border-radius: 50%;
+}
+
+nav.main-nav {
+    background: #111111;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dropdown-toggle:hover {
+    color: #ffffff !important;
+}
+
+nav.main-nav .dropdown-toggle {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+nav.main-nav .dropdown-menu {
+    padding: 0;
+}
+
+nav.main-nav .dropdown-menu a {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .25rem 1rem;
+    color: #000000;
+}
+
+nav.main-nav .dropdown-menu li:first-child { border-radius: 5px 5px 0 0; }
+nav.main-nav .dropdown-menu li:last-child { border-radius: 0 0 5px 5px; }
+
+
+nav.main-nav .dropdown-menu li:hover {
+    background: #eeeeee;
+}
+
+.btn-primary {
+    background-color: #111111;
+    border-color: #111111;
+}
+
+.btn-primary:hover {
+    background-color: #333333;
+}
+.btn-transparent {
+    background: rgba(255,255,255,0.75);
+}
+
+.padding-md {
+    padding-top: 50px;
+    padding-bottom: 50px; 
+}
+
+.padding-md-bottom {
+    padding-bottom: 50px; 
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.text-strong {
+    font-weight: bold;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.main-nav .navbar-collapse {
+    padding-top: 30px;
+}
+
+.links > li > a {
+    color: #FFFFFF;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-left > a {
+    font-size: 48px;
+}
+
+a.logo {
+    font-weight: 300;
+    font-size: 42px;
+    background: #f9f9f9;
+    color: #000;
+    padding: 0px 10px;
+    border-bottom: solid;
+    border-top: solid;
+}
+.logo i {
+    color: #000000;
+    border: solid 2px;
+    border-radius: 50%;
+    font-size: 36px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+    position: relative;
+    top: -3px;
+
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+
+.logo:hover i {
+
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+/* home gallery */
+.img-container {
+    position: relative;
+}
+
+.img-container a.img-container-hidden {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 10;
+}
+
+.img-container .img-rating-container {
+    width: 100%;
+
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.25), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(0,0,0,0.25), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,0.25), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,0));
+
+    position: absolute;
+    top: 0 ; left: 0;
+}
+
+.img-container .img-rating-container .img-container-vote {
+    position: absolute;
+    top: 10px; right: 10px;
+}
+
+.img-container .img-user-info {
+    width: 100%;
+
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.25), rgba(0,0,0,0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(0,0,0,0.25), rgba(0,0,0,0));
+
+    position: absolute;
+    bottom: 0 ; left: 0;
+}
+
+.img-container .img-container-content {
+    height: 50%;
+
+    -webkit-transition : background 250ms linear 350ms;
+    -moz-transition    : background 250ms linear 350ms;
+    -o-transition      : background 250ms linear 350ms;
+    transition         : background 250ms linear 350ms;
+}
+
+.img-container .img-container-content .img-container-hidden {
+    display: none;
+}
+
+.img-container:hover .img-container-hidden {
+    display: block;
+}
+
+.img-container-profile {
+    position: absolute;
+    bottom: 10px; left: 10px;
+    z-index: 1000;
+}
+
+.img-container-profile a {
+    text-decoration: none;
+}
+
+.img-container-profile a img {
+    border-radius: 50%;
+}
+.img-container-profile a p {
+    color: rgba(255,255,255,.75);
+    margin-left: 10px;
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+/* Post */
+
+.post-container .post-img-container {
+    padding: 25px 50px;
+}
+
+.comments-list {
+    padding: 15px 0;
+}
+
+/* Profile */
+.post-header-user {
+    background: #666;
+    color: #fff;
+    margin-left: -50%;
+    margin-right: -50%;
+    padding-top: 25px;
+}
+
+
+.post-header-user img {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+}
+
+/* Sidebar */
+.sidebar-group {
+}
+
+.sidebar-group .sidebar-group-item {
+    overflow: auto;
+    margin-bottom: 15px;
+}
+
+.sidebar-group .sidebar-img {
+    width: 60%;
+}
+
+.sidebar-group .sidebar-text {
+    width: 35%;
+    margin-left: 5%;
+}
+
+.sidebar-group .sidebar-text .sidebar-title {
+    text-decoration: none;
+}
+
+.sidebar-group .sidebar-text .sidebar-title h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.sidebar-group .sidebar-text p {
+    font-size: 0.75rem;
+    margin-bottom: 0;
+}
+
+/* */
+.upload-form-container {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+/* Footer */
+footer {
+    background: #111111;
+    color: #ffffff;
+    padding: 25px 0;
+}
+
+.sticky-footer {
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0; left: 0;
+}
