@@ -8,7 +8,7 @@
                 <div class="post-header-user text-center padding-md">
                     @if ( Auth::check() && auth()->user()->id === $user->id )
                         <div class="edit-profile">
-                            <a class="btn btn-info btn-xs btn-profile" data-toggle="modal" data-target="#profileModal"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                            <a class="btn btn-xs btn-profile" data-toggle="modal" data-target="#profileModal"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
                         </div>
                     @endif
                     <img src="{{ $user->img_profile }}" class="profile-img">

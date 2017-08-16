@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    padding-top: 69px;
+    padding-top: 63px;
     padding-bottom: 50px;
     overflow-x: hidden;
 }
@@ -91,6 +91,10 @@ nav.main-nav .dropdown-menu li:hover {
     background: rgba(255,255,255,0.75);
 }
 
+.btn-profile {
+
+}
+
 .padding-md {
     padding-top: 50px;
     padding-bottom: 50px; 
@@ -139,14 +143,11 @@ nav.main-nav .dropdown-menu li:hover {
 a.logo {
     font-weight: 300;
     font-size: 42px;
-    background: #f9f9f9;
-    color: #000;
+    color: #f9f9f9;
     padding: 0px 10px;
-    border-bottom: solid;
-    border-top: solid;
 }
 .logo i {
-    color: #000000;
+    color: #f9f9f9;
     border: solid 2px;
     border-radius: 50%;
     font-size: 36px;

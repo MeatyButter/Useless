@@ -4,7 +4,7 @@
         <hr>
         @if (Auth::check())
             @include ('partials.errors')
-            <form method="POST" action="{{ URL::to('ucphoto/' . $post->id . '/comment') }}">
+            <form method="POST" action="{{ URL::to('/p/ucphoto/' . $post->id . '/comment') }}">
                 <div class="form-group">
                     <textarea name="body" class="form-control" placeholder="Leave a comment..."></textarea>
                 </div>
